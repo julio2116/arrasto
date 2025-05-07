@@ -1,0 +1,32 @@
+.zona {
+    width: 60px;
+    min-height: 300px;
+    padding: 10px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    gap: 50px;
+}
+
+.dragging {
+    opacity: .7;
+}
+
+.leaving {
+    opacity: .5;
+}
